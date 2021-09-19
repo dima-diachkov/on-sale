@@ -16,6 +16,23 @@
     max-width: 100%;
 }
 
+@media screen and (min-width: 400px) {
+    .on-sale-main-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1em auto 1em;
+        max-width: 800px;  
+    }
+
+    .on-sale-banner {
+        max-width: 800px;
+        min-height: 200px;
+        margin: auto;
+        border: black 1px solid;
+        background-image: url(/img/on-sale-banner.jpg);
+    }
+}
+
 @media screen and (min-width: 800px) {
     .on-sale-main-section {
         display: grid;
