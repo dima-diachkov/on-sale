@@ -36,7 +36,8 @@
     display: grid;
     max-width: 400px;
     margin: auto;
-    background-image: url(/img/on-sale-banner.jpg);
+    border: black 1px solid;
+    background-image: url(../img/on-sale-banner.jpg);
 }
 
 .on-sale-banner-heading {
@@ -72,7 +73,8 @@
         max-width: 800px;
         min-height: 100px;
         margin: auto;
-        background-image: url(/img/on-sale-banner.jpg);
+        border: black 1px solid;
+        background-image: url(../img/on-sale-banner.jpg);
     }
 }
 
@@ -88,7 +90,8 @@
         max-width: 1200px;
         min-height: 160px;
         margin: auto;
-        background-image: url(/img/on-sale-banner.jpg);
+        border: black 1px solid;
+        background-image: url(../img/on-sale-banner.jpg);
     }
 
     .on-sale-bottom-container {
@@ -98,8 +101,6 @@
         margin: auto;
     }
 
-
-    
 }
 
 
