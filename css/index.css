@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
 :root {
     --main-color: black;
@@ -210,24 +210,24 @@ a.product-name:hover {
 
 /*end on sale bottom conteiner*/
 
-/*@media screen and (min-width: 400px) {
+@media screen and (min-width: 550px) {
     .on-sale-main-block {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 1em auto 1em;
-        max-width: 800px;  
+        width: 100%;  
     }
 
     .on-sale-banner {
-        max-width: 800px;
+        width: 100%;
         min-height: 100px;
         margin: auto;
         border: black 1px solid;
         background-image: url(../img/on-sale-banner.jpg);
     }
-}*/
+}
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1050px) {
     .on-sale-main-block {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
