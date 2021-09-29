@@ -78,8 +78,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 2%;
     text-align: center;
-    font-weight: bolder;
-    
+    font-weight: bolder;    
 }
 
 .timer__item::after {
@@ -153,7 +152,7 @@ a.product-name:hover {
     margin: 1em auto 1em;
 }
 
-.on-sale-button-carousel {
+.on-sale-button-carousel-next {
     width: 100px;
     height: 40px;
     font-size: 1rem;
@@ -164,7 +163,17 @@ a.product-name:hover {
     margin-right: 2%;
 }
 
-/*on-sale-carousel-block*/
+.on-sale-button-carousel-prev {
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 5%;
+    font-weight: bold;
+    border: 1px solid var(--main-orange-color);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/*end-on-sale-carousel-block*/
 
 /*on sale banner*/
 
@@ -307,6 +316,7 @@ a.product-name:hover {
         justify-content: center;
         max-width: 1200px;
     }
+
 }
 
 

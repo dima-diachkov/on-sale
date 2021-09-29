@@ -19,5 +19,17 @@ function nextSlide () {
     showCurrentSlide ();
 }
 
+function prevSlide () {
+    currentSlide--;
+    if (currentSlide < 0) currentSlide = slides.length - 1;
+    showCurrentSlide ();
+}
+
 setInterval(nextSlide, 3000);
 showCurrentSlide ();
+
+const btnNext = document.querySelector('.on-sale-button-carousel-next');
+btnNext.addEventListener('click', nextSlide);
+
+const btnPrev = document.querySelector('.on-sale-button-carousel-prev');
+btnPrev.addEventListener('click', prevSlide);
